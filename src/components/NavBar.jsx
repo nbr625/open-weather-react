@@ -24,6 +24,11 @@ export default class Nav extends Component {
             <li>
               <IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Get Weather</IndexLink>
             </li>
+
+            <li>
+              <IndexLink to="/about" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>About</IndexLink>
+            </li>
+
           </ul>
         </div>
         <div className="top-bar-right">

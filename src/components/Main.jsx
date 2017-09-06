@@ -11,6 +11,7 @@ const Main = (props) => {
           {props.children}
         </div>
       </div>
+      <div className="footer"></div>
     </div>
   );
 }
